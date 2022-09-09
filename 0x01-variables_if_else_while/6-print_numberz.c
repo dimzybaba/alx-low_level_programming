@@ -18,19 +18,13 @@ int main(void)
 
 {
 
-char ch;
+int n;
 
-for (ch = 'a' ; ch <= 'z' ; ch++)
-
-{
-
-if (ch != 'e' && ch != 'q')
+for (n = '0'; n <= '9'; n++)
 
 {
 
-	putchar(ch);
-
-}
+	putchar(n);
 
 }
 
