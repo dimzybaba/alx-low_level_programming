@@ -1,41 +1,37 @@
 #include <stdio.h>
 
+#include <stdlib.h>
+
+#include <time.h>
+
+
+
 /**
  *
- * main - print if the number is postive, zero, or negative
+ *   main - Entry point
  *
+ *   
  *
- *
- * Description: using the main function
- *
- * this program prints "Programming is positive, zero, or negative
- *
- * Return: 0
+ *     Return: Always 0 (Success)
  *
  */
+
+
 
 int main(void)
 
 {
 
-char ch;
+		char love;
 
-for (ch = 'a' ; ch <= 'z' ; ch++)
 
-{
 
-if (ch != 'e' && ch != 'q')
+			for (love = 'a'; love <= 'z'; love++)
 
-{
+						putchar(love);
 
-putchar(ch);
+				putchar('\n');
 
-}
-
-}
-
-putchar('\n');
-
-return (0);
+					return (0);
 
 }
