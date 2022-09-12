@@ -4,25 +4,30 @@
 
 #include <time.h>
 
+
+
 /**
 * main - Entry point
 *
 * Return: Always 0 (Success)
 *
 */
+
+
+
 int main(void)
 
 {
 
-		char low;
+		int i;
 
 
 
-			for (low = 'z'; low >= 'a'; low--)
+			for (i = 0; i < 10; i++)
 
-						putchar(low);
+						printf("%d", i);
 
-				putchar('\n');
+				printf("\n");
 
 
 
