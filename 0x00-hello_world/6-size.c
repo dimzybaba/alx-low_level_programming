@@ -1,11 +1,9 @@
 #include <stdio.h>
 
-
 /**
+* main - print the size of varr
 *
-*main - print the size of varr
-*
-*Return: Always 0 (success)
+* Return: Always 0 (success)
 */
 int main (void)
 {
